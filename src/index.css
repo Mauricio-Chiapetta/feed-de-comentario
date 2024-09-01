@@ -25,9 +25,11 @@ textarea {
   width: auto;
   /* border: 1px solid red; */
 }
-.comments{
+.comments {
   border-bottom: 1px solid black;
- 
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 form {
   /* border: 1px solid green; */
