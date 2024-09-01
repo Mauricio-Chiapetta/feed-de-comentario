@@ -18,7 +18,7 @@ function App() {
       comment,
       dateTime: `Em ${date} às ${time}`,
     };
-    setComments((state) => [...state, newComment]);
+    setComments((state) => [newComment,...state]);
   };
 
   return (
